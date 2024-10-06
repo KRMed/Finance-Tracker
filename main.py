@@ -17,7 +17,6 @@ class CSV:
             df = pd.DataFrame(columns=cls.Columns)
             df.to_csv(cls.csv_file, index=False)
 
-#comment o
     @classmethod
     def add_entry(cls, date, amount, category, description):
         new_entry = {
